@@ -8,7 +8,7 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
 
-    <title>Continental Remodellli</title>
+    <title>Continental Remodeling</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -64,7 +64,38 @@ https://templatemo.com/tm-572-designer
       .before-after .comp-card:hover img {
         transform: scale(1.06);
       }
+whatsapp-button-wrapper {
+      width: 100%;
+    }
 
+    .whatsapp-button-wrapper .main-button {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+    }
+
+  /* header call button */
+   .header-call-button {
+    display: inline-flex;
+     align-items: center;
+    gap: 8px;
+     padding: 8px 14px;
+     border-radius: 6px;
+     text-decoration: none;
+    font-weight: 700;
+   }
+  /* ensure good contrast on dark header */
+   .main-navigation .header-call-button {
+     background: #ffffff22; /* subtle background */
+     color: #fff;
+     border: 1px solid rgba(255,255,255,0.12);
+   }
+   .main-navigation .header-call-button:hover {
+     background: rgba(255,255,255,0.08);
+     color: #fff;
+   }
       /* hover overlay */
       .before-after .comp-overlay {
         position: absolute;
@@ -195,7 +226,9 @@ https://templatemo.com/tm-572-designer
                 <li class="nav-item">
                   <a class="nav-link active" href="about.html">About Us</a>
                 </li>
-          
+          <a href="tel:+15613511170" class="main-button header-call-button d-none d-lg-inline-block">
+              Call Now (561) 351-1170
+            </a>
               </ul>
             </div>
           </div>
@@ -411,47 +444,21 @@ That’s the Continental Remodeling way..</p>
                     </div>
                 </div>
                 <div class="col-lg-2 offset-lg-2">
-                    <div class="location-widget">
-                        <h4>Our Location</h4>
-                        <p>Sunny Isles Beach, <br><br>Florida 33160, <br>United States</p>
-                    </div>
-                </div>
-                <div class="col-lg-2">
-                    <div class="customer-care">
-                        <h4>Customer Care</h4>
-                        <ul class="info">
-                            <li><a href="#">010-020-0340</a></li>
-                            <li><a href="#">090-080-0760</a></li>
-                            <li><a href="#">info@company.com</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-2">
-                    <div class="follow-us">
-                        <h4>Follow Us</h4>
-                        <ul class="social-links">
-                            <li>
-                                <a href="#">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
-                                        <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
-                                    </svg>
-                                    Facebook
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
-                                        <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
-                                    </svg>
-                                    Twitter
-                                </a>
-                            </li>
-                            <li>
-                               
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+                  <div class="location-widget">
+                      <h4>Our Location</h4>
+                      <p>West Palm Beach Florida, <br>United States</p>
+                  </div>
+              </div>
+              <div class="col-lg-2">
+                  <div class="customer-care">
+                      <h4>Customer Care</h4>
+                      <ul class="info">
+                          <li><a href="#">Mon-Friday</a></li>
+            
+                      </ul>
+                  </div>
+              </div>
+             
                 <div class="col-lg-6 offset-lg-6">
                     <h4>Subscribe To Our Newsletter</h4>
                     <form id="subscribe" action="" method="get">
